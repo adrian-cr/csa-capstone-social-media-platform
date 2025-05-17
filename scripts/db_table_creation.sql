@@ -6,7 +6,7 @@ CREATE TABLE Users (
   username VARCHAR(50) UNIQUE NOT NULL,
   email VARCHAR(100) UNIQUE NOT NULL,
   password VARCHAR(255) NOT NULL,
-  date_of_birth DATE CHECK (DATEDIFF(DAY, CURRENT_DATE, date_of_birth) >= 5840) NOT NULL,
+  date_of_birth DATE NOT NULL,
   profile_picture_url VARCHAR(255)
 );
 
@@ -16,7 +16,7 @@ CREATE TABLE Posts (
     post_text TEXT,
     post_date DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL,
     media_url VARCHAR(255),
-    (post_text, media_url) CHECK (post_text IS NOT NULL OR media_url IS NOT NULL),
+    CHECK (post_text IS NOT NULL OR media_url IS NOT NULL),
     FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
 
@@ -35,7 +35,7 @@ CREATE TABLE Likes (
     post_id INT NOT NULL,
     user_id INT NOT NULL,
     like_date DATETIME DEFAULT CURRENT_TIMESTAMP,
-     (post_id) REFERENCES Posts(post_id),
+    FOREIGN KEY (post_id) REFERENCES Posts(post_id),
     FOREIGN KEY (user_id) REFERENCES Users(user_id),
     UNIQUE (post_id, user_id) -- Prevents multiple likes on same post by same user
 );
