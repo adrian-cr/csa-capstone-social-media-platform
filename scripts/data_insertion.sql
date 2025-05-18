@@ -13,7 +13,7 @@ INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('drosingdalla', 'clippitta@booking.com', 'rR0<121x\oO+', '1990-09-13', 'http://dummyimage.com/100x100.png/ff4444/ffffff');
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('wgoulstonb', 'kinchleyb@symantec.com', 'iT7%UR>1', '1959-05-26', 'http://dummyimage.com/100x100.png/dddddd/000000');
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('jfryettc', 'kwheatmanc@imageshack.us', 'jF3''R?B"', '1947-05-29', 'http://dummyimage.com/100x100.png/ff4444/ffffff');
-INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('ojochensd', 'sflipsend@wufoo.com', 'hI4''EbUrYW\', '1941-08-29', 'http://dummyimage.com/100x100.png/dddddd/000000');
+INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('ojochensd', 'sflipsend@wufoo.com', 'hI4''EbUrYW', '1941-08-29', 'http://dummyimage.com/100x100.png/dddddd/000000');
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('zmeganye', 'ljennionse@qq.com', 'gO5luda,#|DvL=5i', '1985-04-03', 'http://dummyimage.com/100x100.png/5fa2dd/ffffff');
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('fmcgintyf', 'scastellettif@msu.edu', 'sO0_Cb=uP43w0q', '2008-06-06', 'http://dummyimage.com/100x100.png/5fa2dd/ffffff');
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('mlansburyg', 'tlesurfg@ftc.gov', 'pP2zni?7u', '1958-08-13', 'http://dummyimage.com/100x100.png/5fa2dd/ffffff');
@@ -65,7 +65,7 @@ INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('ecatt1q', 'pmchugh1q@ow.ly', 'vO3`C=XkiHa?5w', '1936-03-09', 'http://dummyimage.com/100x100.png/dddddd/000000');
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('cgeater1r', 'mbacop1r@amazon.de', 'sR0n''oszu+5c', '1989-04-25', 'http://dummyimage.com/100x100.png/5fa2dd/ffffff');
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('vskocroft1s', 'mmacbey1s@rakuten.co.jp', 'zQ9YGwK+D', '2002-05-15', 'http://dummyimage.com/100x100.png/dddddd/000000');
-INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('astorch1t', 'ngoodredge1t@yellowpages.com', 'pN6q2y1VMOc\', '1940-02-19', 'http://dummyimage.com/100x100.png/cc0000/ffffff');
+INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('astorch1t', 'ngoodredge1t@yellowpages.com', 'pN6q2y1VMOc', '1940-02-19', 'http://dummyimage.com/100x100.png/cc0000/ffffff');
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('sarondel1u', 'mleemans1u@google.fr', 'sS1~JtlmuMMMVt9', '1959-11-01', 'http://dummyimage.com/100x100.png/ff4444/ffffff');
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('gmewitt1v', 'mpawden1v@yellowbook.com', 'iK4#lkOw', '1945-09-13', 'http://dummyimage.com/100x100.png/ff4444/ffffff');
 INSERT INTO Users (username, email, password, date_of_birth, profile_picture_url) VALUES ('ssalvage1w', 'kriach1w@cocolog-nifty.com', 'hL9UF`D(P>Sj(h5', '1949-10-25', 'http://dummyimage.com/100x100.png/ff4444/ffffff');
