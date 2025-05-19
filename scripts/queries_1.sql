@@ -44,7 +44,10 @@ ORDER BY activity_date DESC;
 
 
 -- Retrieve the list of followers for user with ID 86:
-SELECT u.user_id, u.username, f.follow_date
+SELECT
+    u.user_id,
+    u.username,
+    f.follow_date
 FROM Follows f JOIN Users u
 	ON f.follower_id = u.user_id
 WHERE f.following_id = 86
