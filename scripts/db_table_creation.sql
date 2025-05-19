@@ -7,7 +7,9 @@ CREATE TABLE Users (
   email VARCHAR(100) UNIQUE NOT NULL,
   password VARCHAR(255) NOT NULL,
   date_of_birth DATE NOT NULL,
-  profile_picture_url VARCHAR(255)
+  profile_picture_url VARCHAR(255),
+  post_count INT DEFAULT 0,
+  follower_count INT DEFAULT 0
 );
 
 CREATE TABLE Posts (
