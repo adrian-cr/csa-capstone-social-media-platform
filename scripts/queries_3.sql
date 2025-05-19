@@ -24,6 +24,7 @@ GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 10;
 
+
 -- Calculate the average number of comments per post (100 comments / 100 posts = 1cpp):
 SELECT ROUND(COUNT(*) / (SELECT COUNT(*) FROM Posts), 0) AS avg_comments_per_post
 FROM Comments;

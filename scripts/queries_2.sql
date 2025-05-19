@@ -7,6 +7,7 @@ INSERT INTO Posts (user_id, post_text, media_url, post_date)
 INSERT INTO Comments (post_id, user_id, comment_text, comment_date)
     VALUES (31, 28, 'This is a comment on the post!', NOW());|
 
+
 -- Update profile information of user with ID 12:
 UPDATE Users
     SET
