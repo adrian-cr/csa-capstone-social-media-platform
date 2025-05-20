@@ -14,7 +14,7 @@ BEGIN
 END$$
 
 
--- Update post counts and follower counts for users:
+-- Update post and follower counts for users:
 CREATE TRIGGER increase_post_count
 AFTER INSERT ON Posts
 FOR EACH ROW
